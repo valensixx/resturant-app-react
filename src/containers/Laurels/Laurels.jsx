@@ -1,10 +1,10 @@
 import React from "react";
-import "AboutUs.css";
+import "Laurels.css";
 
-export default function AboutUs(){
+export default function Laurels(){
     return(
         <div>
-            AboutUs
+            Laurels
         </div>
     );
 }

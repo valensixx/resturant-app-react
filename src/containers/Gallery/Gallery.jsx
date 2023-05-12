@@ -1,10 +1,10 @@
 import React from "react";
-import "AboutUs.css";
+import "Galery.css";
 
-export default function AboutUs(){
+export default function Galery(){
     return(
         <div>
-            AboutUs
+            Galery
         </div>
     );
 }

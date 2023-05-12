@@ -1,10 +1,10 @@
 import React from "react";
-import "AboutUs.css";
+import "Footer.css";
 
-export default function AboutUs(){
+export default function Footer(){
     return(
         <div>
-            AboutUs
+            Footer
         </div>
     );
 }

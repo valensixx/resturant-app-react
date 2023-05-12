@@ -1,10 +1,10 @@
 import React from "react";
-import "AboutUs.css";
+import "Intro.css";
 
-export default function AboutUs(){
+export default function Intro(){
     return(
         <div>
-            AboutUs
+            Intro
         </div>
     );
 }
