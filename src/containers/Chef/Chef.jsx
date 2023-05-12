@@ -1,5 +1,5 @@
 import React from "react";
-import "Chef.css";
+import "./Chef.css";
 
 export default function Chef(){
     return(

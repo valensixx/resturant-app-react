@@ -1,5 +1,5 @@
 import React from "react";
-import "FindUs.css";
+import "./FindUs.css";
 
 export default function FindUs(){
     return(

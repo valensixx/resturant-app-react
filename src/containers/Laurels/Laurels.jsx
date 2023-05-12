@@ -1,5 +1,5 @@
 import React from "react";
-import "Laurels.css";
+import "./Laurels.css";
 
 export default function Laurels(){
     return(

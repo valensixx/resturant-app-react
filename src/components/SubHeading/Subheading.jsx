@@ -1,5 +1,5 @@
 import React from "react";
-import "Subheading.css";
+import "./Subheading.css";
 
 export default function Subheading(){
     return(
