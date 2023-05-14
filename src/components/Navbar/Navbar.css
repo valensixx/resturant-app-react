@@ -57,3 +57,7 @@
     height: 30px;
     background-color: grey;
 }
+
+.app-navbar-smallscreen{
+    display: none;
+}
