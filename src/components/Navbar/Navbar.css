@@ -1,5 +1,36 @@
 .app-navbar{
     width: 100%;
     display: flex;
-    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-black);
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.app-navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.app-navbar-logo img{
+    width: 200px;
+}
+
+.app-navbar-links{
+    flex: 1;  /*That way the menu will teka most of the space in the screen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.app-navbar-links li{
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app-navbar-links li:hover {
+    color: blueviolet;   /*need to chech the var colors*/
 }
