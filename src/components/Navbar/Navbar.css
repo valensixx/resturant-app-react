@@ -34,3 +34,26 @@
 .app-navbar-links li:hover {
     color: blueviolet;   /*need to chech the var colors*/
 }
+
+.app-navbar-login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.app-navbar-login a{
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: 0.5s ease; 
+}
+
+.app-navbar-login a:hover{
+    border-bottom: 1px solid var(--color-golden);
+    color:blueviolet;
+}
+
+.app-navbar-login div{
+    width: 1px;
+    height: 30px;
+    background-color: grey;
+}

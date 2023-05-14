@@ -5,6 +5,9 @@ import "./Navbar.css";
 //import {HamburgerMenu} from 'react-icons/';
 //import {OutlineResturantMenu} from 'react-icons/';
 //import images from '../../constants/images';
+//<div className="app-navbar-smallscreen">
+//<HamburgerMenu color="#fff" fontsize={27} onClick={()=>{}}/>               
+//</div>  
 
 export default function Navbar(){
     return(
@@ -23,7 +26,7 @@ export default function Navbar(){
                 <a href="#login" className="p-opensans">Log In / Register</a>
                 <div />
                 <a href="/" className="p-opensans">Table booking</a>
-            </div>    
+            </div>  
         </nav>
     );
 }
