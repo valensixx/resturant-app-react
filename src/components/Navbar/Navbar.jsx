@@ -1,13 +1,10 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-//here i will inport icons and images later on the project
-//Need to work on toggle menu later
-//<div className="app-navbar-smallscreen">
-//<HamburgerMenu color="#fff" fontsize={27} onClick={()=>{}}/>               
-//</div>  
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import images from '../../constants/images';
+
 
 export default function Navbar() {
     return (
@@ -28,7 +25,14 @@ export default function Navbar() {
                 <a href="/" className="p-opensans">Table booking</a>
             </div>
             <div className="app-navbar-smallscreen">
-               
+            <GiHamburgerMenu color="#fff" fontsize={27} onClick={()=>{}}/> 
+                <ul className="app-navbar-smallscrean-links">
+                    <li className="p-opensans"><a href="#home">Home</a></li>
+                    <li className="p-opensans"><a href="#about">About</a></li>
+                    <li className="p-opensans"><a href="#menu">Menu</a></li>
+                    <li className="p-opensans"><a href="#awards">Awards</a></li>
+                    <li className="p-opensans"><a href="#contacts">Contacts</a></li>
+                </ul>
             </div>
 
         </nav>
