@@ -83,6 +83,19 @@
     right:20px;
 }
 
+.app-navbar-links{
+    list-style: none;
+}
+
+.app-navbar-links li{
+    margin: 2rem;
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--font-base);
+}
+
 @media screen and (max-width: 1150px) {
     .app-navbar-links{
         display: none;
