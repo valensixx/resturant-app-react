@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import {images} from '../../constants';
-import {Subheading} from '../../components';
+import { images } from "../../data/images";
+import { Subheading } from "../../components/SubHeading/Subheading";
 
 export default function Header(){
     return(
