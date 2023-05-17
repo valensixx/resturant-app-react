@@ -96,6 +96,16 @@
     font-family: var(--font-base);
 }
 
+.app-navbar-links li:hover{
+    color: blueviolet;
+}
+
+@media screen and (max-width: 2000px) {
+    .app-navbar-logo img{
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 1150px) {
     .app-navbar-links{
         display: none;
@@ -103,5 +113,18 @@
 
     .app-navbar-smallscreen{
         display: flex;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .app-navbar{
+        padding: 1rem;
+    }
+    .app-navbar-login{
+        display: none;
+    }
+
+    .app-navbar-logo img{
+        width: 100px;
     }
 }
