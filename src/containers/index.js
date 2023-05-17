@@ -8,6 +8,7 @@ import Intro from "./Intro/Intro";
 import Laurels from "./Laurels/Laurels";
 import Menu from "./Menu/Menu";
 
+
 export{
     AboutUs,
     Chef,
@@ -18,4 +19,5 @@ export{
     Intro,
     Laurels,
     Menu,
+    
 };

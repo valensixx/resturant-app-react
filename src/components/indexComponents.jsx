@@ -1,6 +1,6 @@
 import Navbar from './Navbar/Navbar';
 import Menuitem from './Menuitem/Menuitem';
-import Subheading from './SubHeading/Subheading';
+import Subheading from './Subheading/';
 import Newsletter from './Footer/Newsletter';
 import Footer from './Footer/Footer';
 
