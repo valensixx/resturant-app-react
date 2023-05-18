@@ -1,6 +1,17 @@
 .app-header {
     background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    color:white;
+    padding:16px 32px;
 }
+
+.app-wrapper-info {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
 
 .app-header-h1 {
     font-family: var(--font-base);
@@ -12,8 +23,15 @@
     font-size: 90px;
 }
 
+.app-header-img {
+    flex: 1;
+    text-align: center;
+}
+
 .app-header-img img {
-    width: 80%;
+    width: 100%;
+    max-width: 500px; /* Adjust the max-width value as per your preference */
+    height: auto;
 }
 
 @media screen and (min-width: 2000px) {
