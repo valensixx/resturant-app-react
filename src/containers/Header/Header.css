@@ -1,0 +1,26 @@
+.app-header{
+    background-color: black;
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+.app-header p{
+    color:white;
+}
+
+.app-wrapper-info{
+    width:50%;
+}
+.app-header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 80px;
+}
+
+.app-wrapper-img {
+    max-width: 200px;
+    height: auto;
+  }
