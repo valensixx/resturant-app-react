@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { images } from "../../data/images";
+import { images } from "../../constants";
 
 
 export default function Header(){
