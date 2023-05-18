@@ -34,6 +34,23 @@
     height: auto;
 }
 
+
+.custom-button{
+    font-family: var(--font-base);
+    background-color: var(--color-golden);
+    border: none;
+    color: grey;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.custom-button:hover{
+    cursor: pointer;
+    color: blueviolet;
+    background-color: rgb(255, 230, 0);
+}
+
 @media screen and (min-width: 2000px) {
     .app-header-h1 {
         font-size: 180px;
