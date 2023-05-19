@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     padding:16px 32px;
+    background-color: var(--color-black);
+    color:white;
 }
 
 .app-aboutus-overlay{
@@ -39,6 +41,26 @@
     text-align: right;
 }
 
+.app-aboutus-content-about h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+} 
+
+.spoon-img{
+    width: 100%;
+    max-width: 100px; /* Adjust the max-width value as per your preference */
+    height: auto;
+}
+
+.p-opensans{
+    margin:2rem 0;
+    font-size: 18px;
+}
 .app-aboutus-content-knife{
     margin: 2rem 4rem;
    
@@ -56,3 +78,13 @@
     flex-direction: column;
     text-align: left;
 }
+
+.app-aboutus-content-history h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+} 
