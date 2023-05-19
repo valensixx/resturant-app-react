@@ -20,6 +20,22 @@ export default function AboutUs(){
                     </p>
                     <button type="button" className="custom-button">Know More</button>
                 </div>
+
+                <div className="app-aboutus-content-knife">
+                    <img src={images.knife} alt="knife image"/>
+                </div>
+
+                <div className="app-aboutus-content-history">
+                    <h1 className="headtext-comorant">Our History</h1>
+                    <img src={images.spoon} alt="spoon" className="spoon-img"/>
+                    <p className="p-opensans">
+                        Lorem Ipsum has been the industry's standard dummy text ever 
+                        since the 1500s, when an unknown printer took a galley of type 
+                        and scrambled it to make a type specimen book.
+                    </p>
+                    <button type="button" className="custom-button">Know More</button>
+                </div>
+
             </div>
         </div>
     );
