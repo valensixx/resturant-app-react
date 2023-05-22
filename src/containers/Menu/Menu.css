@@ -3,6 +3,7 @@
     flex-direction: column;
     background: var(--color-black);
     color: white;
+    padding:16px 32px;
   }
   
   .app-specialMenu-title {
@@ -11,6 +12,7 @@
   }
   
   .app-specialMenu-menu {
+    display: flex;
     width: 100%;
     margin: 2rem 0;
     justify-content: center;
@@ -26,3 +28,11 @@
     letter-spacing: 0.04em;
     color: white;
 }
+
+.app-specialMenu-menu-img{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    margin: 0 5rem;
+}
+
