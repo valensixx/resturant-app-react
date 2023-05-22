@@ -1,0 +1,21 @@
+.app-menuitem{
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-menuitem-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-menuitem-sub{
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.app-menuitem-name{
+    flex: 1;
+}
