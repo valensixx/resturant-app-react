@@ -21,8 +21,21 @@ export default function Menu(){
                         ))}
                     </div>
                 </div>
+                <div className="app-menu-menu-img">
+                    <img sec={images.menu} menu="menu img"/>
+                </div>
+                <div className="app-menu-menu-cocktails flex-center">
+                    <p className="app-menu-menu-heading">cocktails & Beer</p>
+                    <div className="app-menu-menu-items">
+                        {data.cocktails.map((cocktails, index)=>(
+                            <p>{cocktails.title}</p>
+                        ))}
+                    </div>
+                </div>
             </div>
-
+            <div style={{marginTop:'15px'}}>
+                <button type="button" className="custom-button">View more</button>            
+            </div>
         </div>        
     );
 }
