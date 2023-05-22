@@ -1,10 +1,31 @@
+h1{
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 117px;
+  font-size: 90px;
+}
+
+.spoon-img{
+  width: 100%;
+  max-width: 100px; /* Adjust the max-width value as per your preference */
+  height: auto;
+}
+
+.p-opensans{
+  margin:2rem 0;
+  font-size: 18px;
+}
+
 .app-specialMenu {
     display: flex;
     flex-direction: column;
     background: var(--color-black);
     color: white;
     padding: 16px 32px;
-    align-items: center; /* Добавена промяна */
+    align-items: center; 
   }
   
   .app-specialMenu-title {
@@ -44,5 +65,5 @@
   .app-specialMenu-button {
     display: flex;
     justify-content: center; /* Добавена промяна */
-    margin-top: 15px;
+    
   }
