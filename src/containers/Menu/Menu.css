@@ -3,7 +3,8 @@
     flex-direction: column;
     background: var(--color-black);
     color: white;
-    padding:16px 32px;
+    padding: 16px 32px;
+    align-items: center; /* Добавена промяна */
   }
   
   .app-specialMenu-title {
@@ -27,12 +28,21 @@
     line-height: 58.5px;
     letter-spacing: 0.04em;
     color: white;
-}
-
-.app-specialMenu-menu-img{
+  }
+  
+  .app-specialMenu-menu-img {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 50%;
     margin: 0 5rem;
-}
-
+  }
+  
+  .app-specialMenu-menu-img img {
+    width: 100%;
+  }
+  
+  .app-specialMenu-button {
+    display: flex;
+    justify-content: center; /* Добавена промяна */
+    margin-top: 15px;
+  }
