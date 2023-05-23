@@ -1,0 +1,32 @@
+.app-bg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:16px 32px;
+    background-color: var(--color-black);
+    color:white;
+}
+
+.app-chef-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.app-chef-content-quote{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.app-chef-content-quote img{
+    width: 45px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.app-chef-content-sign{
+    width: 100%;
+}
+
