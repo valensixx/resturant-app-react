@@ -84,7 +84,16 @@ h1{
 
   @media screen and (max-width: 2000px) {
     .app-specialMenu-menu-img{
-      margin:0 3rem;
+      width: 650px;
+    } 
+
+    .app-specialMenu-menu-img img{
+      height: 920px;
+    } 
+
+    h1{
+      font-size: 90px;
+      line-height: 90px;
     }
   }
 
@@ -97,6 +106,11 @@ h1{
     .app-specialMenu-menu-img{
       margin: 0 3rem;
     }
+
+    h1{
+      font-size: 50px;
+      line-height: 50px;
+    }
   }
 
   @media screen and (max-width: 650px) {
@@ -106,5 +120,10 @@ h1{
     .app-specialMenu-menu-heading{
       font-size: 35px;
       line-height: 45px;
+    }
+
+    h1{
+      font-size: 30px;
+      line-height: 30px;
     }
   }
