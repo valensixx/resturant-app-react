@@ -6,6 +6,7 @@
     padding:16px 32px;
     background-color: var(--color-black);
     color:white;
+    flex-wrap: wrap;
 }
 
 .app-wrapper-img img{
@@ -61,13 +62,11 @@
 
 @media screen and  (max-width: 450px){
     .app-chef-sign img{
-        width: 80%;
-        margin-top: 3rem;
+        width: 80%;     
     }
 
     .app-wrapper-img img{
         width: 10px;
         height:50px ;
-        margin: 10px 0;
     }
 }
