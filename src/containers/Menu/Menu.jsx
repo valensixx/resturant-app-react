@@ -25,7 +25,7 @@ export default function Menu() {
         </div>
         <div className="app-specialMenu-menu-cocktails flex-center">
           <p className="app-specialMenu-menu-heading">Cocktails</p>
-          <div className="app-menu-menu-items">
+          <div className="app-specialMenu-menu-items">
             {data.cocktails.map((cocktail) => (
               <Menuitem key={cocktail.title} price={cocktail.price} title={cocktail.title} tags={cocktail.tags} />
             ))}
