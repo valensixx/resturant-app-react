@@ -1,0 +1,38 @@
+.app-video {
+    height: 100vh;
+    position: relative;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:16px 32px;
+}
+
+.app-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-video-overlay-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid var(--color-golden);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
