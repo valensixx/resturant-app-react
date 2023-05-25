@@ -3,11 +3,19 @@ import "./Laurels.css";
 import { images, data } from '../../data';
 import { SubHeading } from "../../components";
 
-const AwardCard =()=>(  //this will be a local component
-    <div>
-        
+const AwardCard =({award:{imgUrl,title,subtitle}})=>(  //this will be a local component
+    <div className="app-laurels-awards-card">
+        <img src={imgUrl} alt="award" />
+        <div className="app-laurels-awards-card-content">
+            <p className="p-cormorant" style={{color:'#DCCA87'}}>
+                {title}
+            </p>
+            <p className="p-cormorant">
+                {subtitle}
+            </p>
+        </div>
     </div>
-)
+);
 
 export default function Laurels(){
     return(
@@ -21,7 +29,7 @@ export default function Laurels(){
             </div>
 
             <div className="app-wrapper-img">
-
+                
             </div>
         </div>
     );
