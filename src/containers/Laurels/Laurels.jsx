@@ -29,7 +29,7 @@ export default function Laurels(){
             </div>
 
             <div className="app-wrapper-img">
-                
+                <img src={images.laurels} alt="laurels"/>
             </div>
         </div>
     );
