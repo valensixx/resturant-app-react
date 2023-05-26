@@ -1,3 +1,8 @@
+.bg-app{
+    background: var(--color-black);
+    color: white;
+    padding: 16px 32px;
+}
 .app-laurels-awards{
     display: flex;
     justify-content: flex-start;
@@ -14,6 +19,19 @@
     margin: 1rem;
 }
 
+.app-laurels-awards-card img{
+    width: 100px;
+    height: 100px;
+}
+
+.app-laurels-awards-card-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
 @media screen and (min-width:1900px) {
-    
+    .app-laurels-awards-card{
+        min-width: 390px;
+    }
 }
