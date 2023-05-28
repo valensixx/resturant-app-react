@@ -23,32 +23,50 @@
 }
 
 .app-laurels-awards-card img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 .app-wrapper-img {
     display: flex;
     align-items: center;
-    justify-content: center; /* Added to center horizontally */
-    height: 100vh; /* Added to center vertically */
+    justify-content: center;
+    height: 100vh;
   }
   
-  .centered-image img {
+  .app-wrapper-img img {
     max-width: 100%;
     max-height: 100%;
   }
+  
+ 
 
 
 @media screen and (min-width:1900px) {
     .app-laurels-awards-card{
         min-width: 390px;
     }
-}
 
-@media screen and (max-width:450px) {
-    .app-laurels-awards-card{
-        min-width: 100%;
-        margin: 1rem 0;
+    .app-laurels-awards-card img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .app-laurels-awards-card-content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .app-laurels-awards-card {
+      min-width: 100%;
+      margin: 1rem 0;
+    }
+  
+    .app-wrapper-img img {
+      width: 100%;
+      height: auto;
+    }
+  }
