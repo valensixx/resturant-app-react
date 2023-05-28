@@ -37,6 +37,7 @@ export default function Gallery() {
           {galleryImages.map((image, index) => (
             <div className="app-gallery-images-card flex-center" key={`gallery-image-${index + 1}`}>
               <img src={image} alt="gallery image" />
+              <BsInstagram className="gallery-image-icon"/>
             </div>
           ))}
         </div>
