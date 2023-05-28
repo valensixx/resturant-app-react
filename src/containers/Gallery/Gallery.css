@@ -1,0 +1,9 @@
+.app-gallery{
+   display: flex;
+   flex-direction: row;
+    background: black;
+    /*padding: 4rem, 0, 4rem, 6rem;*/
+    padding: 16px 32px;
+    color: white;
+
+}

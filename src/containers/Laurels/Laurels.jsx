@@ -7,10 +7,10 @@ const AwardCard =({award:{imgUrl,title,subtitle}})=>(  //this will be a local co
     <div className="app-laurels-awards-card">
         <img src={imgUrl} alt="award" />
         <div className="app-laurels-awards-card-content">
-            <p className="p-cormorant" style={{color:'#DCCA87'}}>
+            <p className="p-cormorant" style={{color:'#DCCA87', fontSize:'30px'}}>
                 {title}
             </p>
-            <p className="p-cormorant">
+            <p className="p-cormorant" style={{fontSize:'18px'}}>
                 {subtitle}
             </p>
         </div>
