@@ -1,13 +1,12 @@
-.app-gallery{
-   display: flex;
-   flex-direction: row;
+.app-gallery {
+    display: flex;
+    flex-direction: row;
     background: black;
-    /*padding: 4rem, 0, 4rem, 6rem;*/
     padding: 16px 32px;
     color: white;
-}
-
-.app-gallery-content{
+  }
+  
+  .app-gallery-content {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -15,44 +14,91 @@
     flex-direction: column;
     min-width: 500px;
     padding-right: 2rem;
-}
-
-.app-gallery-content button{
+  }
+  
+  .app-gallery-content button {
     margin-top: 1rem;
-}
-
-.app-gallery-images{
+  }
+  
+  .app-gallery-images {
     flex: 1;
     display: flex;
     flex-direction: row;
     max-width: 50%;
     position: relative;
-}
-
-.app-gallery-images-container {
+  }
+  
+  .app-gallery-images-container {
     display: flex;
     flex-direction: row;
     width: max-content;
-    overflow-x: scroll; 
+    overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
-.app-gallery-images-container::-webkit-scrollbar {
+    align-items: center;
+  }
+  
+  .app-gallery-images-container::-webkit-scrollbar {
     display: none;
-}
-
-.app-gallery-images-card{
+  }
+  
+  .app-gallery-images-card {
     position: relative;
     min-width: 301px;
     height: 447px;
     margin-right: 2rem;
-}
-
-.app-gallery-image-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery-image-icon {
     position: absolute;
     color: #fff;
     font-size: 2rem;
     opacity: 0;
     transition: .5s ease;
     cursor: pointer;
-}
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .app-gallery-images-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+  
+  .app-gallery-images-card:hover img {
+    opacity: 0.35;
+  }
+  
+  .app-gallery-images-card:hover .gallery-image-icon {
+    opacity: 1;
+  }
+  
+  .app-gallery-images-arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: absolute;
+    bottom: 5%;
+  }
+  
+  .gallery-arrow-icon {
+    color: var(--color-golden);
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  .gallery-arrow-icon:hover {
+    color: white;
+  }
+
+  
