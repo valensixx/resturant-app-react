@@ -101,4 +101,50 @@
     color: white;
   }
 
-  
+  @media screen and (min-width: 2000px) {
+    .app-gallery-content{
+      min-width: 1000px;
+      padding-right: 4rem;
+    }
+
+    .app-gallery-images-card{
+      min-width: 400px;
+      height: 540px;
+    }
+
+    .app-gallery-content button{
+      margin-top: 2rem;
+    }
+  }
+
+  @media  screen and (max-width:1150px) {
+    .app-gallery{
+      flex-direction: column;
+    }
+
+    .app-gallery-images{
+      max-width: 100%;
+      margin: 5rem 0;
+    }
+  }
+
+  @media  screen and (max-width:850px) {
+    .app-gallery{
+      padding: 4rem 0 4rem 4rem;
+    }
+  }
+
+  @media  screen and (max-width:650px) {
+    .app-gallery{
+      padding: 4rem 0 4rem 4rem;
+    }
+
+    .app-gallery-content{
+      min-width: 100%;
+    }
+
+    .app-gallery-images-card{
+      min-width: 240px;
+      height: 320px;
+    }
+  }
