@@ -1,7 +1,7 @@
 import Navbar from './Navbar/Navbar';
 import Menuitem from './Menuitem/Menuitem';
 import Newsletter from './Footer/Newsletter';
-import Footer from './Footer/Footer';
+import FooterOverlay from './Footer/FooterOverlay';
 import SubHeading from './SubHeading/SubHeading';
 
 export {
@@ -9,5 +9,5 @@ export {
     SubHeading,
     Menuitem,
     Newsletter,
-    Footer,
+    FooterOverlay,
 };
