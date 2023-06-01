@@ -20,7 +20,7 @@ export default function Footer(){
           </div>
     
           <div className="app-footer-links-logo">
-            <img src={images.gericht} alt="footer-logo" />
+            <img src={images.V} alt="footer-logo" />
             <p className="p-opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
             <img src={images.spoon} className="spoon-img" style={{ marginTop: 15 }} />
             <div className="app-footer-links-icons">
